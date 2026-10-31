@@ -1,0 +1,94 @@
+.content {
+  display: flex;
+  justify-content: center;
+
+  flex: 1;
+}
+
+.inner-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  max-width: 900px;
+  flex: 1;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 2px solid rgb(83, 83, 83);
+  transition: transform 0.2s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.03) rotate(3deg);
+}
+
+.career {
+  color: rgb(151, 151, 151);
+}
+
+.contacts {
+  margin-top: 25px;
+
+  display: flex;
+  gap: 10px;
+}
+
+.typewriter {
+  display: inline-block;
+  border-right: 3px solid;
+  width: 99px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 0.7s steps(5),
+    cursor .4s step-end 0.7s infinite alternate;
+}
+
+.person a {
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition-duration: 0.2s;
+}
+
+.person a:hover {
+  background-color: rgb(158, 158, 158);
+}
+
+.icon {
+  width: 24px;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .inner-content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .avatar {
+    width: clamp(230px, 50vw, 300px)
+  }
+}

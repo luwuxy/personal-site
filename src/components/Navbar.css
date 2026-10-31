@@ -1,0 +1,41 @@
+.navbar {
+  height: 60px;
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  justify-content: center;
+  z-index: 10;
+
+  border-bottom: 1px solid rgb(83, 83, 83);
+  background-color: rgb(15, 15, 15);
+}
+
+.inner-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex: 1;
+
+  max-width: 900px;
+  padding: 0 30px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+.nav-links a:hover {
+  color: rgb(177, 177, 177);
+}

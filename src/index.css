@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(17, 17, 17);
+  font-family: 'Roboto Mono', sans-serif;
+  color: white;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
