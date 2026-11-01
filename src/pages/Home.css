@@ -3,6 +3,8 @@
   justify-content: center;
 
   flex: 1;
+  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .inner-content {
@@ -16,7 +18,7 @@
 
 .avatar {
   border-radius: 50%;
-  border: 2px solid rgb(83, 83, 83);
+  border: 2px solid #1d2e3d;
   transition: transform 0.2s ease;
 }
 
@@ -37,6 +39,7 @@
 
 .typewriter {
   display: inline-block;
+  color: #4686c7;
   border-right: 3px solid;
   width: 99px;
   white-space: nowrap;

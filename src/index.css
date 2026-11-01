@@ -1,5 +1,11 @@
 body {
-  background-color: rgb(17, 17, 17);
+  background: #152331;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000, #152331);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #152331);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   font-family: 'Roboto Mono', sans-serif;
   color: white;
   margin: 0;
@@ -8,12 +14,17 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-
-  min-height: 100vh;
-  min-height: 100dvh;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+h4,
+p {
   margin: 0;
   padding: 0;
+}
+
+button {
+  font-family: 'Roboto Mono', sans-serif;
 }
