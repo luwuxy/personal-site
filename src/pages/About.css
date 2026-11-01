@@ -125,3 +125,17 @@
 .interest-icon {
   width: 24px;
 }
+
+@media only screen and (max-width: 800px) {
+  .about-me-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .interests-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
