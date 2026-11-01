@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar"
-import "./Projects.css"
+import "./Projects.scss"
 import { ViewTransition } from "react"
 
 export default function Projects() {

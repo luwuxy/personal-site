@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import { ViewTransition } from "react"
-import "./About.css"
+import "./About.scss"
 import isaac from "../assets/isaac.jpg";
 import glt from "../assets/glt.jpg";
 

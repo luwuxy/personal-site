@@ -1,4 +1,4 @@
-import './Home.css'
+import './Home.scss'
 import Navbar from '../components/Navbar'
 import avatar from '../assets/avatar.png';
 import { ViewTransition } from 'react';
