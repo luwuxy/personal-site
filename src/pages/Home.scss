@@ -7,6 +7,20 @@
   min-height: 100dvh;
 
   padding: 0 20px;
+
+  animation: pageEnter 0.5s ease both;
+}
+
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .inner-content {
